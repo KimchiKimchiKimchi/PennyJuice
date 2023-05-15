@@ -1,0 +1,218 @@
+@charset "UTF-8"
+/*CSS DOCUMENT*/
+body {
+    background-image: url(optimized_images/juice_foreground.png);
+    background-size: auto;
+    font-family: sans-serif;
+    margin: 0;
+}
+        
+h1, h2, h3 {
+    margin: 15px;
+    padding: 15px;
+    color: darkred;
+}
+
+h2 {
+    color: brown;
+    font-size: 20px;
+}
+
+#container {
+    background-color: aliceblue;
+    opacity: 0.9;
+    width:  800px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+        
+.header {
+    overflow: hidden;
+    color: darkred;
+    text-align: left;
+    padding: 5px;
+    
+}
+
+.content {
+    padding: 5;
+}
+        
+.topnav {
+    width: 100%;
+    background-color: darkred;
+    line-height: 40px;
+    float: left;
+}
+
+.topnav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    
+}
+
+.topnav ul {
+    list-style: left;
+}
+
+.topnav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+#nav ul li a {
+    display: block;
+    font-family: arial;
+    color:darkorange;
+    font-size: 14px;'
+    padding: 24px 14px;
+    text-decoration: none;
+}
+
+.topnav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: darkgoldenrod;
+    padding: 11px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.topnav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: darkred;
+    padding: 10x;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+.topnav ul li ul li {
+    padding; 8px 14px;
+}
+.topnav ul li ul li a {
+    border-radius: 4px;
+}
+
+.topnav ul li ul li a:hover {
+    background-color: red
+}
+
+.slider_image {
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: darksalmon;
+    padding: 20px; 
+}
+
+.flex-container1 {
+    display:flex;
+    flex-wrap: wrap;
+    background-color: azure;
+    justify-content: center;
+    clear: both;    
+}
+
+.flex-container1 >div {
+    background-color: azure;
+    color: white;
+    width: 200%;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size:  30px;
+}
+
+.flex-container2 > {
+    display: flex;
+    background-color: darkgoldenrod;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container2 > div {
+    background-color: brown;
+    color: white;
+    width: auto;
+    margin: 12px;
+    text-align: left;
+    line-height: 70px;
+    font-size: 30px
+}
+
+
+main {
+	padding: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+label {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input, textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+}
+
+textarea {
+	height: 200px;
+	resize: none;
+}
+
+button {
+	background-color: #C06C84;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #6C5B7B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
